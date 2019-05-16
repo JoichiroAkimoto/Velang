@@ -7,6 +7,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## What is Velang
+Restaurant guide for vegans in Japan.
+<a href="https://velang.herokuapp.com/">deployed on heroku
+
+## Lean-Canvas & STP Model
+<a href="https://docs.google.com/presentation/d/125SMS2VWdPWTNWYQ-w6Mnk4rn6RSE1hPqnVdIlnVP7s/edit?usp=sharing">here
+
 ## Scraping Command
 `php artisan tabelog_scraping`
 
