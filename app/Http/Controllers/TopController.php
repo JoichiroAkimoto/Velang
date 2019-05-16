@@ -10,7 +10,7 @@ class TopController extends Controller
 {
     public function index()
   {
-    $restaurants = Restaurant::orderBy('id', 'ASC')->take(20)->get();
+    $restaurants = Restaurant::orderBy('id', 'ASC')->paginate(20);
     return view('top.index')->with('restaurants', $restaurants);
   }
 }

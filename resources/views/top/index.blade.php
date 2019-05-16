@@ -21,7 +21,6 @@ Find Best Vegan Restaurant -->
     <br><br><br><br><br><br><br>
     {!!Form::label('test_name','ver. 0.0.1')!!}
 </div>
-
 <div>
     <div class="container">
         <header>
@@ -29,17 +28,22 @@ Find Best Vegan Restaurant -->
         </header>
         @foreach ($restaurants as $restaurant)
         <!-- <li class="col"> -->
-          <hr noshade>
-            <div class="thumbnail__caption">
-                <h3 class="text-xsmall text-overflow" title="{{ $restaurant->store_name }}">
-                    {{ $restaurant->store_name }}
-                </h3>
-            </div>
-            <a href="#">
-                <div class="thumbnail__figure" style="background-image:url({{ $restaurant->image_url1 }})"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
-            </a>
+        <hr noshade>
+        <div class="thumbnail__caption">
+            <h3 class="text-xsmall text-overflow" title="{{ $restaurant->store_name }}">
+                {{ $restaurant->store_name }}
+            </h3>
+        </div>
+        <a href="#">
+            <div class="thumbnail__figure" style="background-image:url({{ $restaurant->image_url1 }})"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+        </a>
         <!-- </li> -->
         @endforeach
+        <div align="center">
+            <div class="pagination pagination-success">
+                {{ $restaurants->render() }}
+            </div>
+        </div>
     </div>
 </div>
 <!-- <div class="container">
