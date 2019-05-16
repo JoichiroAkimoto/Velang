@@ -44,6 +44,7 @@
 
 @yield('content')
 <!-- </div>/.container -->
+<hr noshade>
 <div class="copyright">
           Copyright (C) 2019  Joichiro Akimoto. All Rights Reserved.
 </div>

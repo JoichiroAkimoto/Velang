@@ -25,19 +25,20 @@ Find Best Vegan Restaurant -->
 <div>
     <div class="container">
         <header>
-            <h2>New!</h2>
+            <h4>New!</h2>
         </header>
         @foreach ($restaurants as $restaurant)
-        <li class="col">
-            <a href="#">
-                <div class="thumbnail__figure" style="background-image:url({{ $restaurant->image_url1 }})"><br><br><br><br><br><br><br><br><br><br><br><br><br><br</div>
-            </a>
+        <!-- <li class="col"> -->
+          <hr noshade>
             <div class="thumbnail__caption">
                 <h3 class="text-xsmall text-overflow" title="{{ $restaurant->store_name }}">
                     {{ $restaurant->store_name }}
                 </h3>
             </div>
-        </li>
+            <a href="#">
+                <div class="thumbnail__figure" style="background-image:url({{ $restaurant->image_url1 }})"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+            </a>
+        <!-- </li> -->
         @endforeach
     </div>
 </div>
