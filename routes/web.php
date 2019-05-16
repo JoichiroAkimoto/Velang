@@ -16,4 +16,4 @@
 // });
 
 Route::get('/', 'TopController@index');
-Route::resource('restaurants', 'RestaurantsController', ['only' => 'show']);
+Route::resource('/restaurants', 'RestaurantsController', ['only' => 'show']);
