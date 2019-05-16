@@ -19,7 +19,9 @@ Find Best Vegan Restaurant -->
         </div><!-- /.col-lg-6 -->
     </div><!-- /.row -->
     <br><br><br><br><br><br><br>
+    {!!Form::label('test_name','ver. 0.0.1')!!}
 </div>
+
 <div>
     <div class="container">
         <header>

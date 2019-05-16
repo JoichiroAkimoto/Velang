@@ -164,6 +164,11 @@ return [
         Collective\Html\HtmlServiceProvider::class,  // 追加
 
         /*
+         * Laravel Framework Service Providers...
+         */
+        Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
+
+        /*
          * Package Service Providers...
          */
 
