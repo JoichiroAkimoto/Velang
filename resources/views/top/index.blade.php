@@ -8,14 +8,16 @@ Find Best Vegan Restaurant -->
     <p></p><br>
     <div class="row">
         <div class="col-lg-6">
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Type Keywords">
-                <span class="input-group-btn">
-                    <button class="btn btn-default btn-lg" type="button">
-                        <!-- <span class="glyphicon glyphicon-search" aria-hidden="true"> </span> -->
-                        GO</button>
-                </span>
-            </div><!-- /input-group -->
+            <form action='/restaurants/search' accept_sharset="UTF-8" method="get">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Type Keywords" name="keyword">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default btn-lg" type="submit">
+                            <!-- <span class="glyphicon glyphicon-search" aria-hidden="true"> </span> -->
+                            GO</button>
+                    </span>
+                </div><!-- /input-group -->
+            </form>
         </div><!-- /.col-lg-6 -->
     </div><!-- /.row -->
     <br><br><br><br><br><br><br>
@@ -30,9 +32,9 @@ Find Best Vegan Restaurant -->
         <!-- <li class="col"> -->
         <hr noshade>
         <div class="thumbnail__caption"><a href="/restaurants/{{ $restaurant->id }}">
-            <h3 class="text-xsmall text-overflow" title="{{ $restaurant->store_name }}">
-                {{ $restaurant->store_name }}
-            </h3>
+                <h3 class="text-xsmall text-overflow" title="{{ $restaurant->store_name }}">
+                    {{ $restaurant->store_name }}
+                </h3>
         </div>
         <a href="/restaurants/{{ $restaurant->id }}">
             <div class="thumbnail__figure" style="background-image:url({{ $restaurant->image_url1 }})"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
