@@ -4,7 +4,7 @@
 <!-- <img class="logo" src="img/vege.jpg" alt="vege">
 Find Best Vegan Restaurant -->
 <div class="header">
-    <h1><a accesskey="1">Find the Best Vegan Restaurant</h1>
+    <h1><a accesskey="1">Find the Best Vegan Restaurant in Shinjuku</h1>
     <p></p><br>
     <div class="row">
         <div class="col-lg-6">
