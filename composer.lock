@@ -718,23 +718,23 @@
         },
         {
             "name": "google/protobuf",
-            "version": "v3.11.0",
+            "version": "v3.21.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/protocolbuffers/protobuf-php.git",
-                "reference": "360aadcebac83d56aa4c09bca7d1c3bd798119fe"
+                "reference": "68f71264d8816f001177d68ce99d25b28e212d4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/360aadcebac83d56aa4c09bca7d1c3bd798119fe",
-                "reference": "360aadcebac83d56aa4c09bca7d1c3bd798119fe",
+                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/68f71264d8816f001177d68ce99d25b28e212d4c",
+                "reference": "68f71264d8816f001177d68ce99d25b28e212d4c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.0"
+                "php": ">=7.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=4.8.0"
+                "phpunit/phpunit": ">=5.0.0"
             },
             "suggest": {
                 "ext-bcmath": "Need to support JSON deserialization"
@@ -755,7 +755,11 @@
             "keywords": [
                 "proto"
             ],
-            "time": "2019-11-26T02:39:29+00:00"
+            "support": {
+                "issues": "https://github.com/protocolbuffers/protobuf-php/issues",
+                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v3.21.1"
+            },
+            "time": "2022-05-27T22:57:31+00:00"
         },
         {
             "name": "grpc/grpc",
